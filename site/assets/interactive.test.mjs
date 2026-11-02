@@ -58,3 +58,39 @@ test('guest Useful click shows auto-dismiss sign-in toast', () => {
   assert.match(INDEX, /usefulNeedSignIn:'Sign in to mark this as useful\.'/);
 });
 
+
+// Runs the real safeNextUrl body against a fake location. A same-origin URL
+// whose path starts with "//" (or "/\") passed the origin check, and
+// location.assign then treated the returned path as protocol-relative,
+// sending a signed-in reader to another host.
+function loadSafeNextUrl(search) {
+  const m = JS.match(/function safeNextUrl\(\) \{[\s\S]*?\n  \}\n/);
+  assert.ok(m, 'safeNextUrl not found in interactive.js');
+  const location = { origin: 'https://book.dlgrv.com', search };
+  return new Function('location', 'URL', 'URLSearchParams', `${m[0]}; return safeNextUrl;`)(
+    location, URL, URLSearchParams,
+  );
+}
+
+function landing(next) {
+  const ret = loadSafeNextUrl('?next=' + encodeURIComponent(next))();
+  return ret ? new URL(ret, 'https://book.dlgrv.com/login/').origin : '(default)';
+}
+
+test('login next= never leaves the site origin', () => {
+  for (const next of [
+    'https://book.dlgrv.com//evil.example/x',
+    'https://book.dlgrv.com/\\evil.example',
+    '//evil.example/x',
+    'https://evil.example/',
+    'javascript:alert(1)',
+  ]) {
+    const o = landing(next);
+    assert.ok(o === 'https://book.dlgrv.com' || o === '(default)', `${next} -> ${o}`);
+  }
+});
+
+test('login next= keeps a normal same-origin page', () => {
+  const ret = loadSafeNextUrl('?next=' + encodeURIComponent('https://book.dlgrv.com/en/?q=a#e-12'))();
+  assert.equal(ret, '/en/?q=a#e-12');
+});

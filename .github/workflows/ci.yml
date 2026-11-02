@@ -68,6 +68,10 @@ jobs:
         run: .venv/bin/python3 forge/ops/check_links.py
       - name: Content check
         run: .venv/bin/python3 forge/ops/check_content.py
+      - name: Helpline numbers
+        # Not covered by "Verify retranslated chapters" (soft-skipped) or by
+        # check_content. Runs on every locale; only owner-pinned differences pass.
+        run: .venv/bin/python3 forge/ops/check_helplines.py
       - name: Build pages
         run: |
           .venv/bin/python3 forge/site/build_pages.py

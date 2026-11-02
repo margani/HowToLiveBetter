@@ -276,3 +276,27 @@ class PollutionAndInjectEdges(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ProtectedHelplines(unittest.TestCase):
+    """A helpline the MT changed (12356 -> 12365) used to be "repaired" by
+    appending 〔12356〕 to Notes: verify passed while the advice line kept the
+    wrong number. Protected numbers must stay failing and go to a human."""
+
+    UNIT = "### 3. Call for help\n- Cost: if in crisis call 12365 now\n- Notes: free, 24h\n"
+
+    def test_protected_number_is_not_injected(self):
+        issues = [{"kind": "number_absent", "value": "12356", "count": 1}]
+        fixed = mechanical_fix_unit(self.UNIT, issues, "en")
+        self.assertNotIn("12356", fixed)
+        self.assertTrue(issues_still_present(fixed, issues, "en"))
+
+    def test_unprotected_number_is_still_injected(self):
+        issues = [{"kind": "number_absent", "value": "4321", "count": 1}]
+        fixed = mechanical_fix_unit(self.UNIT, issues, "en")
+        self.assertIn("4321", fixed)
+
+    def test_clean_pollution_keeps_helpline_runs(self):
+        line = "Emergency numbers: 110 119 120 122"
+        self.assertEqual(clean_pollution(line), line)
+        self.assertEqual(clean_pollution("see 2021 2022 2023"), "see")
