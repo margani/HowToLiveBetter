@@ -10,11 +10,22 @@ Catchup lessons (2026-09):
 
 from __future__ import annotations
 
+import json
 import re
 from collections import Counter
+from pathlib import Path
 
 from translate.lib.labels import field_labels, source_label
 from translate.steps.verify.verify import norm_numbers
+
+_PROTECTED_PATH = Path(__file__).resolve().parents[2] / "protected-numbers.json"
+
+
+def protected_numbers() -> frozenset[str]:
+    """Emergency/helpline numbers repair must never move or add (owner-verified list)."""
+    data = json.loads(_PROTECTED_PATH.read_text(encoding="utf-8"))
+    return frozenset(str(n["number"]) for n in data["numbers"])
+
 
 # Fullwidth brackets survive thousands-fold and parse back via norm_numbers.
 _INJECT_RE = re.compile(r"(?:\s*〔[^〕]+〕)+")
@@ -138,10 +149,17 @@ def fix_heading_number(text: str, uu: str) -> str:
 
 def clean_pollution(text: str) -> str:
     """Strip naive digit dumps left by earlier inject attempts."""
+    protected = protected_numbers()
+
+    def _strip_run(m: re.Match) -> str:
+        # "Emergency numbers: 110 119 120" is advice, not a dump; keep any run
+        # that holds a helpline.
+        return m.group(0) if protected & set(m.group(0).split()) else ""
+
     lines: list[str] = []
     for raw in text.splitlines():
         cleaned = re.sub(r"(?:\s+0\.\d+){2,}\s*$", "", raw)
-        cleaned = re.sub(r"(?:\s+\d{3,5}){3,}\s*$", "", cleaned)
+        cleaned = re.sub(r"(?:\s+\d{3,5}){3,}\s*$", _strip_run, cleaned)
         lines.append(cleaned)
     return "\n".join(lines)
 
@@ -272,7 +290,15 @@ def mechanical_fix_unit(text: str, issues: list[dict], lang: str) -> str:
     """Collapse fields, fix mangled decimals, inject missing abs values into Notes."""
     text = collapse_multiline_fields(text, lang)
     text = clean_pollution(text)
-    number_issues = [i for i in issues if i.get("kind") == "number_absent"]
+    # A missing helpline usually means the MT changed it in the prose; a Notes
+    # token would satisfy verify and leave the wrong number in the advice. Leave
+    # it failing so the unit goes to a human.
+    protected = protected_numbers()
+    number_issues = [
+        i
+        for i in issues
+        if i.get("kind") == "number_absent" and str(i.get("value")) not in protected
+    ]
     if not number_issues:
         return text if text.endswith("\n") else text + "\n"
 
