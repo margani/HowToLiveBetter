@@ -14,6 +14,10 @@ When the user asks to pull/sync/update from the original Chinese repo, **follow 
 
 Locales: [translate/langs.json](translate/langs.json), [docs/pipeline/add-language.md](docs/pipeline/add-language.md). Site lives in `site/`; Pages deploy via Actions (not branch `/`).
 
+## Model use
+
+This project runs on Sonnet. Do routine work (small edits, tests, git, status files, reading) yourself. For a heavy step (design of a new feature, hard debugging after one failed attempt, a security or architecture review, a large refactor, an audit across many files) delegate that step to a subagent with the Agent tool and model "opus", then use its result. Say in one line when you delegate and why. (Owner decision 2026-11-10.)
+
 # 高性价比人生指南 · 项目规则
 
 以下规则适用于本仓库的所有工作，必须遵守。
