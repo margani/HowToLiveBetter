@@ -551,7 +551,12 @@
     try {
       var u = new URL(next, location.origin);
       if (u.origin !== location.origin) return '';
-      return u.pathname + u.search + u.hash;
+      // A same-origin URL can still carry a path like "//other.host/x" (the
+      // parser also turns "/\" into "//"). Returned bare, location.assign
+      // reads it as protocol-relative and leaves the site.
+      var path = u.pathname + u.search + u.hash;
+      if (path.charAt(0) !== '/' || path.charAt(1) === '/' || path.indexOf('\\') !== -1) return '';
+      return path;
     } catch (e) {
       return '';
     }

@@ -1,0 +1,10 @@
+{
+  "_comment": "Emergency and helpline numbers that forge/ops/check_helplines.py requires to appear the same number of times in every item of every translation as in the Chinese source. Derived on 2026-11-02 from numbers next to 拨打/电话/热线/报警/急救/求助 in book/NN-*.md. Adding or removing a number here needs the owner's verification.",
+  "numbers": [
+    {"number": "110"}, {"number": "119"}, {"number": "120"}, {"number": "122"},
+    {"number": "96110"}, {"number": "12119"}, {"number": "12300"}, {"number": "12308"},
+    {"number": "12315"}, {"number": "12320"}, {"number": "12333"}, {"number": "12345"},
+    {"number": "12348"}, {"number": "12355"}, {"number": "12356"}, {"number": "12366"},
+    {"number": "12378"}, {"number": "12387"}, {"number": "12393"}
+  ]
+}

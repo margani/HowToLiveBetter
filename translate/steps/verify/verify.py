@@ -816,6 +816,26 @@ def main():
         for v, c in extra.items():
             warn_objs.append({"kind": "number_added", "value": str(v), "count": int(c)})
 
+    # Chapter-wide number multisets let a helpline swap pass when the same value
+    # is also a statistic elsewhere (120 = medical emergency and a trial size).
+    # Compare protected numbers per item; only owner-pinned differences pass.
+    from forge.ops import check_helplines as hl
+
+    try:
+        protected = hl.load_protected()
+        hl_baseline = hl.load_baseline()
+    except (OSError, ValueError, KeyError) as e:
+        sys.exit(f"cannot load protected helpline list: {e}")
+    hl_probs = hl.unpinned(
+        lang, f"{int(n):02d}", hl.compare("\n".join(sl), "\n".join(tl), protected), hl_baseline
+    )
+    for p in hl_probs:
+        sec = "intro" if p["section"] == "intro" else f"item {p['section']}"
+        add_fail(
+            f"helpline numbers changed in {sec}: source {p['source']} != translation {p['translation']} (needs owner review)",
+            {"kind": "helpline_changed", **p},
+        )
+
     zh_lines = []
     in_note = False
     for idx, ln in enumerate(tl, 1):

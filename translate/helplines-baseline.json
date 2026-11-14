@@ -1,0 +1,1898 @@
+{
+ "_comment": "Helpline differences pinned as found; each needs the owner's review. See forge/ops/check_helplines.py.",
+ "pinned": [
+  {
+   "lang": "ar",
+   "chapter": "01",
+   "file": "book/ar/01-Do-Not-Die-Early.md",
+   "section": "intro",
+   "source": {
+    "12356": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "01",
+   "file": "book/ar/01-Do-Not-Die-Early.md",
+   "section": "32",
+   "source": {
+    "12356": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "01",
+   "file": "book/ar/01-Do-Not-Die-Early.md",
+   "section": "41",
+   "source": {
+    "110": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "01",
+   "file": "book/ar/01-Do-Not-Die-Early.md",
+   "section": "43",
+   "source": {
+    "110": 1,
+    "12356": 2
+   },
+   "translation": {
+    "110": 1,
+    "12356": 1
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "01",
+   "file": "book/ar/01-Do-Not-Die-Early.md",
+   "section": "44",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "01",
+   "file": "book/ar/01-Do-Not-Die-Early.md",
+   "section": "46",
+   "source": {
+    "119": 4,
+    "120": 4
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "02",
+   "file": "book/ar/02-Do-Not-Die-Slowly.md",
+   "section": "intro",
+   "source": {
+    "12320": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "05",
+   "file": "book/ar/05-Do-Not-Waste-Money.md",
+   "section": "50",
+   "source": {
+    "12345": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "08",
+   "file": "book/ar/08-Do-Not-End-Up-Inside.md",
+   "section": "2",
+   "source": {
+    "110": 2,
+    "96110": 6
+   },
+   "translation": {
+    "110": 3,
+    "96110": 7
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "08",
+   "file": "book/ar/08-Do-Not-End-Up-Inside.md",
+   "section": "15",
+   "source": {
+    "110": 3,
+    "12356": 2
+   },
+   "translation": {
+    "110": 3,
+    "12356": 3
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "08",
+   "file": "book/ar/08-Do-Not-End-Up-Inside.md",
+   "section": "32",
+   "source": {
+    "110": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "09",
+   "file": "book/ar/09-Legal-Red-Lines.md",
+   "section": "3",
+   "source": {},
+   "translation": {
+    "120": 2
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "1",
+   "source": {
+    "120": 2
+   },
+   "translation": {
+    "120": 3
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "2",
+   "source": {
+    "120": 5
+   },
+   "translation": {
+    "120": 4
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "4",
+   "source": {
+    "120": 3
+   },
+   "translation": {
+    "120": 1
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "17",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "22",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "25",
+   "source": {
+    "110": 2
+   },
+   "translation": {
+    "110": 1
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "37",
+   "source": {
+    "110": 3
+   },
+   "translation": {
+    "110": 4
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "43",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "44",
+   "source": {
+    "120": 4
+   },
+   "translation": {
+    "120": 1
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "46",
+   "source": {
+    "120": 5
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "13",
+   "file": "book/ar/13-Emergencies.md",
+   "section": "47",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "15",
+   "file": "book/ar/15-Renting-And-Buying-Housing.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ar",
+   "chapter": "19",
+   "file": "book/ar/19-Employment-And-Work-Injury.md",
+   "section": "16",
+   "source": {
+    "12356": 2
+   },
+   "translation": {
+    "12356": 1
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "29",
+   "file": "book/ar/29-After-A-Major-Blow.md",
+   "section": "11",
+   "source": {
+    "110": 1,
+    "12355": 4,
+    "12356": 8
+   },
+   "translation": {
+    "110": 1,
+    "12355": 4,
+    "12356": 9
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "33",
+   "file": "book/ar/33-Living-With-Disability.md",
+   "section": "2",
+   "source": {
+    "12356": 2
+   },
+   "translation": {
+    "12356": 1
+   }
+  },
+  {
+   "lang": "ar",
+   "chapter": "33",
+   "file": "book/ar/33-Living-With-Disability.md",
+   "section": "15",
+   "source": {},
+   "translation": {
+    "119": 1
+   }
+  },
+  {
+   "lang": "en",
+   "chapter": "01",
+   "file": "book/en/01-Do-Not-Die-Early.md",
+   "section": "44",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "en",
+   "chapter": "01",
+   "file": "book/en/01-Do-Not-Die-Early.md",
+   "section": "46",
+   "source": {
+    "119": 4,
+    "120": 4
+   },
+   "translation": {}
+  },
+  {
+   "lang": "en",
+   "chapter": "05",
+   "file": "book/en/05-Do-Not-Waste-Money.md",
+   "section": "50",
+   "source": {
+    "12345": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "en",
+   "chapter": "07",
+   "file": "book/en/07-Living-With-No-Money.md",
+   "section": "1",
+   "source": {
+    "12333": 1
+   },
+   "translation": {
+    "12333": 2
+   }
+  },
+  {
+   "lang": "en",
+   "chapter": "08",
+   "file": "book/en/08-Do-Not-End-Up-Inside.md",
+   "section": "32",
+   "source": {
+    "110": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "en",
+   "chapter": "09",
+   "file": "book/en/09-Legal-Red-Lines.md",
+   "section": "3",
+   "source": {},
+   "translation": {
+    "120": 2
+   }
+  },
+  {
+   "lang": "en",
+   "chapter": "13",
+   "file": "book/en/13-Emergencies.md",
+   "section": "1",
+   "source": {
+    "120": 2
+   },
+   "translation": {
+    "120": 3
+   }
+  },
+  {
+   "lang": "en",
+   "chapter": "13",
+   "file": "book/en/13-Emergencies.md",
+   "section": "2",
+   "source": {
+    "120": 5
+   },
+   "translation": {
+    "120": 6
+   }
+  },
+  {
+   "lang": "en",
+   "chapter": "13",
+   "file": "book/en/13-Emergencies.md",
+   "section": "4",
+   "source": {
+    "120": 3
+   },
+   "translation": {
+    "120": 1
+   }
+  },
+  {
+   "lang": "en",
+   "chapter": "13",
+   "file": "book/en/13-Emergencies.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "en",
+   "chapter": "13",
+   "file": "book/en/13-Emergencies.md",
+   "section": "17",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "en",
+   "chapter": "13",
+   "file": "book/en/13-Emergencies.md",
+   "section": "25",
+   "source": {
+    "110": 2
+   },
+   "translation": {
+    "110": 1
+   }
+  },
+  {
+   "lang": "en",
+   "chapter": "13",
+   "file": "book/en/13-Emergencies.md",
+   "section": "37",
+   "source": {
+    "110": 3
+   },
+   "translation": {
+    "110": 4
+   }
+  },
+  {
+   "lang": "en",
+   "chapter": "13",
+   "file": "book/en/13-Emergencies.md",
+   "section": "46",
+   "source": {
+    "120": 5
+   },
+   "translation": {}
+  },
+  {
+   "lang": "en",
+   "chapter": "13",
+   "file": "book/en/13-Emergencies.md",
+   "section": "47",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "en",
+   "chapter": "15",
+   "file": "book/en/15-Renting-And-Buying-Housing.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "en",
+   "chapter": "29",
+   "file": "book/en/29-After-A-Major-Blow.md",
+   "section": "11",
+   "source": {
+    "110": 1,
+    "12355": 4,
+    "12356": 8
+   },
+   "translation": {
+    "110": 1,
+    "12355": 4,
+    "12356": 9
+   }
+  },
+  {
+   "lang": "en",
+   "chapter": "33",
+   "file": "book/en/33-Living-With-Disability.md",
+   "section": "2",
+   "source": {
+    "12356": 2
+   },
+   "translation": {
+    "12356": 1
+   }
+  },
+  {
+   "lang": "en",
+   "chapter": "33",
+   "file": "book/en/33-Living-With-Disability.md",
+   "section": "15",
+   "source": {},
+   "translation": {
+    "119": 1
+   }
+  },
+  {
+   "lang": "es",
+   "chapter": "01",
+   "file": "book/es/01-No-Mueras-Temprano.md",
+   "section": "44",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "01",
+   "file": "book/es/01-No-Mueras-Temprano.md",
+   "section": "46",
+   "source": {
+    "119": 4,
+    "120": 4
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "02",
+   "file": "book/es/02-No-Te-Dejes-Morir-Lentamente.md",
+   "section": "intro",
+   "source": {
+    "12320": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "05",
+   "file": "book/es/05-No-Desperdicies-Dinero.md",
+   "section": "2",
+   "source": {},
+   "translation": {
+    "120": 2
+   }
+  },
+  {
+   "lang": "es",
+   "chapter": "05",
+   "file": "book/es/05-No-Desperdicies-Dinero.md",
+   "section": "50",
+   "source": {
+    "12345": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "08",
+   "file": "book/es/08-No-Te-Entres-Tu-Mismo.md",
+   "section": "4",
+   "source": {
+    "110": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "08",
+   "file": "book/es/08-No-Te-Entres-Tu-Mismo.md",
+   "section": "39",
+   "source": {
+    "110": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "09",
+   "file": "book/es/09-Lineas-Rojas-Legales-Para-Gente-Comun.md",
+   "section": "3",
+   "source": {},
+   "translation": {
+    "120": 2
+   }
+  },
+  {
+   "lang": "es",
+   "chapter": "13",
+   "file": "book/es/13-Emergencias.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "13",
+   "file": "book/es/13-Emergencias.md",
+   "section": "22",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "13",
+   "file": "book/es/13-Emergencias.md",
+   "section": "37",
+   "source": {
+    "110": 3
+   },
+   "translation": {
+    "110": 4
+   }
+  },
+  {
+   "lang": "es",
+   "chapter": "13",
+   "file": "book/es/13-Emergencias.md",
+   "section": "46",
+   "source": {
+    "120": 5
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "13",
+   "file": "book/es/13-Emergencias.md",
+   "section": "47",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "15",
+   "file": "book/es/15-Alquilar-Y-Comprar-Vivienda.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "es",
+   "chapter": "19",
+   "file": "book/es/19-Empleo-Y-Accidentes-Laborales.md",
+   "section": "16",
+   "source": {
+    "12356": 2
+   },
+   "translation": {
+    "12356": 1
+   }
+  },
+  {
+   "lang": "es",
+   "chapter": "29",
+   "file": "book/es/29-Despues-De-Un-Golpe-Fuerte.md",
+   "section": "2",
+   "source": {},
+   "translation": {
+    "120": 1
+   }
+  },
+  {
+   "lang": "es",
+   "chapter": "29",
+   "file": "book/es/29-Despues-De-Un-Golpe-Fuerte.md",
+   "section": "11",
+   "source": {
+    "110": 1,
+    "12355": 4,
+    "12356": 8
+   },
+   "translation": {
+    "110": 2,
+    "12355": 4,
+    "12356": 9
+   }
+  },
+  {
+   "lang": "es",
+   "chapter": "33",
+   "file": "book/es/33-Como-Vivir-Tras-Una-Discapacidad.md",
+   "section": "15",
+   "source": {},
+   "translation": {
+    "119": 1
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "01",
+   "file": "book/id/01-Hindari-Kematian-Dini.md",
+   "section": "intro",
+   "source": {
+    "12356": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "01",
+   "file": "book/id/01-Hindari-Kematian-Dini.md",
+   "section": "25",
+   "source": {
+    "12356": 4
+   },
+   "translation": {
+    "119": 6,
+    "12356": 2
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "01",
+   "file": "book/id/01-Hindari-Kematian-Dini.md",
+   "section": "32",
+   "source": {
+    "12356": 1
+   },
+   "translation": {
+    "119": 2
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "01",
+   "file": "book/id/01-Hindari-Kematian-Dini.md",
+   "section": "44",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "01",
+   "file": "book/id/01-Hindari-Kematian-Dini.md",
+   "section": "46",
+   "source": {
+    "119": 4,
+    "120": 4
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "02",
+   "file": "book/id/02-Jangan-Rusak-Kesehatan-Perlahan.md",
+   "section": "intro",
+   "source": {
+    "12320": 1
+   },
+   "translation": {
+    "12320": 3
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "02",
+   "file": "book/id/02-Jangan-Rusak-Kesehatan-Perlahan.md",
+   "section": "5",
+   "source": {
+    "12320": 3
+   },
+   "translation": {
+    "12320": 4
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "03",
+   "file": "book/id/03-Jaga-Tenaga.md",
+   "section": "18",
+   "source": {
+    "12356": 5
+   },
+   "translation": {
+    "119": 4,
+    "12356": 3
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "03",
+   "file": "book/id/03-Jaga-Tenaga.md",
+   "section": "22",
+   "source": {
+    "12356": 1
+   },
+   "translation": {
+    "119": 2
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "03",
+   "file": "book/id/03-Jaga-Tenaga.md",
+   "section": "24",
+   "source": {
+    "12356": 2
+   },
+   "translation": {
+    "119": 2,
+    "12356": 1
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "04",
+   "file": "book/id/04-Hemat-Waktu.md",
+   "section": "13",
+   "source": {
+    "12356": 1
+   },
+   "translation": {
+    "119": 2,
+    "12356": 1
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "05",
+   "file": "book/id/05-Jaga-Uang.md",
+   "section": "9",
+   "source": {
+    "12315": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "05",
+   "file": "book/id/05-Jaga-Uang.md",
+   "section": "31",
+   "source": {
+    "12315": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "05",
+   "file": "book/id/05-Jaga-Uang.md",
+   "section": "36",
+   "source": {
+    "12315": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "05",
+   "file": "book/id/05-Jaga-Uang.md",
+   "section": "50",
+   "source": {
+    "12345": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "08",
+   "file": "book/id/08-Lindungi-Diri-Dan-Harta.md",
+   "section": "14",
+   "source": {
+    "12356": 5
+   },
+   "translation": {
+    "119": 6,
+    "12356": 2
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "08",
+   "file": "book/id/08-Lindungi-Diri-Dan-Harta.md",
+   "section": "15",
+   "source": {
+    "110": 3,
+    "12356": 2
+   },
+   "translation": {
+    "110": 3,
+    "119": 4
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "08",
+   "file": "book/id/08-Lindungi-Diri-Dan-Harta.md",
+   "section": "37",
+   "source": {
+    "12356": 1
+   },
+   "translation": {
+    "119": 2
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "09",
+   "file": "book/id/09-Batas-Hukum-Sehari-Hari.md",
+   "section": "3",
+   "source": {},
+   "translation": {
+    "120": 2
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "1",
+   "source": {
+    "120": 2
+   },
+   "translation": {
+    "119": 2,
+    "120": 1
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "2",
+   "source": {
+    "120": 5
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "3",
+   "source": {
+    "120": 3
+   },
+   "translation": {
+    "119": 3
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "4",
+   "source": {
+    "120": 3
+   },
+   "translation": {
+    "119": 1
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "7",
+   "source": {
+    "120": 2
+   },
+   "translation": {
+    "119": 2
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "8",
+   "source": {
+    "120": 2
+   },
+   "translation": {
+    "119": 2
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "11",
+   "source": {
+    "120": 3
+   },
+   "translation": {
+    "119": 3
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "15",
+   "source": {
+    "120": 3
+   },
+   "translation": {
+    "119": 3
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "17",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "22",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "25",
+   "source": {
+    "110": 2
+   },
+   "translation": {
+    "110": 1
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "37",
+   "source": {
+    "110": 3
+   },
+   "translation": {
+    "110": 4
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "40",
+   "source": {
+    "120": 2
+   },
+   "translation": {
+    "119": 2
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "43",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "46",
+   "source": {
+    "120": 5
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "13",
+   "file": "book/id/13-Keadaan-Darurat.md",
+   "section": "47",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "15",
+   "file": "book/id/15-Menyewa-Dan-Membeli-Rumah.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "19",
+   "file": "book/id/19-Kerja-Dan-Cedera-Kerja.md",
+   "section": "12",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "19",
+   "file": "book/id/19-Kerja-Dan-Cedera-Kerja.md",
+   "section": "16",
+   "source": {
+    "12356": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "id",
+   "chapter": "29",
+   "file": "book/id/29-Setelah-Pukulan-Hidup-Yang-Berat.md",
+   "section": "11",
+   "source": {
+    "110": 1,
+    "12355": 4,
+    "12356": 8
+   },
+   "translation": {
+    "110": 1,
+    "119": 7,
+    "12355": 1,
+    "12356": 5
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "30",
+   "file": "book/id/30-Anak-Usia-Sekolah.md",
+   "section": "8",
+   "source": {
+    "12355": 2,
+    "12356": 2
+   },
+   "translation": {
+    "119": 2,
+    "12355": 1,
+    "12356": 1
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "33",
+   "file": "book/id/33-Hidup-Setelah-Disabilitas.md",
+   "section": "2",
+   "source": {
+    "12356": 2
+   },
+   "translation": {
+    "119": 2,
+    "12356": 2
+   }
+  },
+  {
+   "lang": "id",
+   "chapter": "33",
+   "file": "book/id/33-Hidup-Setelah-Disabilitas.md",
+   "section": "15",
+   "source": {},
+   "translation": {
+    "119": 1
+   }
+  },
+  {
+   "lang": "pt",
+   "chapter": "01",
+   "file": "book/pt/01-Como-Evitar-Uma-Morte-Prematura.md",
+   "section": "32",
+   "source": {
+    "12356": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "01",
+   "file": "book/pt/01-Como-Evitar-Uma-Morte-Prematura.md",
+   "section": "44",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "01",
+   "file": "book/pt/01-Como-Evitar-Uma-Morte-Prematura.md",
+   "section": "46",
+   "source": {
+    "119": 4,
+    "120": 4
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "02",
+   "file": "book/pt/02-Não-Morra-Devagar.md",
+   "section": "intro",
+   "source": {
+    "12320": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "02",
+   "file": "book/pt/02-Não-Morra-Devagar.md",
+   "section": "22",
+   "source": {},
+   "translation": {
+    "119": 1
+   }
+  },
+  {
+   "lang": "pt",
+   "chapter": "05",
+   "file": "book/pt/05-Não-desperdice-dinheiro.md",
+   "section": "2",
+   "source": {},
+   "translation": {
+    "120": 2
+   }
+  },
+  {
+   "lang": "pt",
+   "chapter": "05",
+   "file": "book/pt/05-Não-desperdice-dinheiro.md",
+   "section": "50",
+   "source": {
+    "12345": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "08",
+   "file": "book/pt/08-Não-arrisque-sua-segurança-leis-e-proteção-patrimonial.md",
+   "section": "15",
+   "source": {
+    "110": 3,
+    "12356": 2
+   },
+   "translation": {
+    "110": 2,
+    "12356": 2
+   }
+  },
+  {
+   "lang": "pt",
+   "chapter": "08",
+   "file": "book/pt/08-Não-arrisque-sua-segurança-leis-e-proteção-patrimonial.md",
+   "section": "32",
+   "source": {
+    "110": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "08",
+   "file": "book/pt/08-Não-arrisque-sua-segurança-leis-e-proteção-patrimonial.md",
+   "section": "43",
+   "source": {
+    "110": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "09",
+   "file": "book/pt/09-Armadilhas-legais-que-as-pessoas-comuns-costumam-cometer.md",
+   "section": "3",
+   "source": {},
+   "translation": {
+    "120": 2
+   }
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "1",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "2",
+   "source": {
+    "120": 5
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "3",
+   "source": {
+    "120": 3
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "4",
+   "source": {
+    "120": 3
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "7",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "8",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "11",
+   "source": {
+    "120": 3
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "12",
+   "source": {
+    "120": 3
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "15",
+   "source": {
+    "120": 3
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "17",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "22",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "36",
+   "source": {
+    "110": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "40",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "46",
+   "source": {
+    "120": 5
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "13",
+   "file": "book/pt/13-Situações-de-emergência-o-que-fazer-primeiro.md",
+   "section": "47",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "15",
+   "file": "book/pt/15-Alugar-ou-comprar-um-imóvel.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "pt",
+   "chapter": "19",
+   "file": "book/pt/19-Emprego-demissão-e-acidentes-de-trabalho.md",
+   "section": "16",
+   "source": {
+    "12356": 2
+   },
+   "translation": {
+    "12356": 1
+   }
+  },
+  {
+   "lang": "pt",
+   "chapter": "21",
+   "file": "book/pt/21-Viajar-ao-exterior-turismo-e-segurança-no-estrangeiro.md",
+   "section": "2",
+   "source": {
+    "12308": 3
+   },
+   "translation": {
+    "12308": 4
+   }
+  },
+  {
+   "lang": "pt",
+   "chapter": "29",
+   "file": "book/pt/29-Após-sofrer-um-grande-golpe.md",
+   "section": "11",
+   "source": {
+    "110": 1,
+    "12355": 4,
+    "12356": 8
+   },
+   "translation": {
+    "110": 1,
+    "12355": 4,
+    "12356": 7
+   }
+  },
+  {
+   "lang": "pt",
+   "chapter": "33",
+   "file": "book/pt/33-Como-viver-após-ficar-com-deficiência.md",
+   "section": "2",
+   "source": {
+    "12356": 2
+   },
+   "translation": {
+    "12356": 1
+   }
+  },
+  {
+   "lang": "pt",
+   "chapter": "33",
+   "file": "book/pt/33-Como-viver-após-ficar-com-deficiência.md",
+   "section": "15",
+   "source": {},
+   "translation": {
+    "119": 1
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "01",
+   "file": "book/ru/01-Не-умирайте-рано.md",
+   "section": "intro",
+   "source": {
+    "12356": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "01",
+   "file": "book/ru/01-Не-умирайте-рано.md",
+   "section": "32",
+   "source": {
+    "12356": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "01",
+   "file": "book/ru/01-Не-умирайте-рано.md",
+   "section": "41",
+   "source": {
+    "110": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "01",
+   "file": "book/ru/01-Не-умирайте-рано.md",
+   "section": "44",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "01",
+   "file": "book/ru/01-Не-умирайте-рано.md",
+   "section": "46",
+   "source": {
+    "119": 4,
+    "120": 4
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "02",
+   "file": "book/ru/02-Не-умирайте-медленно.md",
+   "section": "22",
+   "source": {},
+   "translation": {
+    "119": 1
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "05",
+   "file": "book/ru/05-Не-тратьте-деньги-впустую.md",
+   "section": "2",
+   "source": {},
+   "translation": {
+    "120": 2
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "05",
+   "file": "book/ru/05-Не-тратьте-деньги-впустую.md",
+   "section": "50",
+   "source": {
+    "12345": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "07",
+   "file": "book/ru/07-Как-жить-без-денег.md",
+   "section": "1",
+   "source": {
+    "12333": 1
+   },
+   "translation": {
+    "12333": 2
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "08",
+   "file": "book/ru/08-Не-подставляйтесь.md",
+   "section": "15",
+   "source": {
+    "110": 3,
+    "12356": 2
+   },
+   "translation": {
+    "110": 2,
+    "12356": 2
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "09",
+   "file": "book/ru/09-Юридические-красные-линии.md",
+   "section": "3",
+   "source": {},
+   "translation": {
+    "120": 2
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "1",
+   "source": {
+    "120": 2
+   },
+   "translation": {
+    "120": 1
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "2",
+   "source": {
+    "120": 5
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "3",
+   "source": {
+    "120": 3
+   },
+   "translation": {
+    "120": 1
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "7",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "8",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "11",
+   "source": {
+    "120": 3
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "12",
+   "source": {
+    "120": 3
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "15",
+   "source": {
+    "120": 3
+   },
+   "translation": {
+    "120": 1
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "17",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "22",
+   "source": {
+    "120": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "36",
+   "source": {
+    "110": 2
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "46",
+   "source": {
+    "120": 5
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "13",
+   "file": "book/ru/13-Экстренные-случаи.md",
+   "section": "47",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "15",
+   "file": "book/ru/15-Аренда-и-покупка-жилья.md",
+   "section": "16",
+   "source": {
+    "120": 1
+   },
+   "translation": {}
+  },
+  {
+   "lang": "ru",
+   "chapter": "19",
+   "file": "book/ru/19-Работа-и-травмы.md",
+   "section": "16",
+   "source": {
+    "12356": 2
+   },
+   "translation": {
+    "12356": 1
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "29",
+   "file": "book/ru/29-После-тяжёлого-удара.md",
+   "section": "11",
+   "source": {
+    "110": 1,
+    "12355": 4,
+    "12356": 8
+   },
+   "translation": {
+    "110": 1,
+    "12355": 4,
+    "12356": 7
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "33",
+   "file": "book/ru/33-Как-жить-после-инвалидности.md",
+   "section": "2",
+   "source": {
+    "12356": 2
+   },
+   "translation": {
+    "12356": 1
+   }
+  },
+  {
+   "lang": "ru",
+   "chapter": "33",
+   "file": "book/ru/33-Как-жить-после-инвалидности.md",
+   "section": "15",
+   "source": {},
+   "translation": {
+    "119": 1
+   }
+  }
+ ]
+}
